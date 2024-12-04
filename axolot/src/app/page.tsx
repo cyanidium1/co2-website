@@ -6,6 +6,8 @@ import Services from '../components/HomePages/Repair/Services';
 import Footer from '../components/HomePages/Repair/Footer';
 import FaqContentStyle2 from '@/components/Common/FaqContentStyle2';
 import AboutProduct from '@/components/HomePages/Repair/AboutProduct';
+import ContactInfo from '@/components/Contact/ContactInfo';
+import FormComponent from '@/components/HomePages/Repair/FormComponent';
 
  
  
@@ -22,7 +24,9 @@ export default function Page() {
 
       <FaqContentStyle2 />
       
-      <AboutProduct/>
+      <AboutProduct />
+
+      <FormComponent/>
 
       <Footer />
  

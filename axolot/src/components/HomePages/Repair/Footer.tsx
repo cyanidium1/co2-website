@@ -48,30 +48,17 @@ const Footer: React.FC = () => {
                 <h3>Contacts</h3>
                 <ul className="contact-list">
                   <li>
-                    <span>Address:</span> 27 Division St, New York, NY 10002,
-                    USA
-                  </li>
-                  <li>
                     <span>Email:</span>{" "}
                     <a href="mailto:axolot@gmail.com">axolot@gmail.com</a>
                   </li>
                   <li>
-                    <span>Phone:</span>{" "}
-                    <a href="tel:+0321984754">+0 (321) 984 754</a>
+                    <span>Телефон:</span>{" "}
+                    <a href="tel:+380996698291"> +38 (099) 669 82 91</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="map-box">
-          <Image
-            src="/img/footer-map.png"
-            alt="image"
-            width={1027}
-            height={499}
-          />
         </div>
       </footer>
     </>

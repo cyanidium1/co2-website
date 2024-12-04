@@ -39,7 +39,7 @@ const MultipageNavbar: React.FC = () => {
       >
         <div className="container">
           <Link href="/home-7" className="navbar-brand">
-            <Image src="/logo.svg" alt="logo" width={200} height={90} />
+            <Image src="/logo.svg" alt="logo" width={200} height={90} className="logo"/>
           </Link>
 
           <button
@@ -97,10 +97,10 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="/contact/"
-                  className={`nav-link ${pathname.includes("/contact") && "active"}`}
+                  href="#contact"
+                  className={`nav-link ${pathname.includes("#contact") && "active"}`}
                 >
-                  Contact
+                  Контакти
                 </Link>
               </li>
             </ul>

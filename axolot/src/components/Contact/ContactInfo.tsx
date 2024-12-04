@@ -1,30 +1,43 @@
 "use client";
-  
-import React from "react"; 
+
+import React from "react";
 
 const ContactInfo: React.FC = () => {
   return (
     <>
-      <div className="row">
-        <div className="col-lg-4 col-md-12">
+      <div
+        id="contact"
+        className="row container ptb-100"
+        style={{ margin: "0 auto" }}
+      >
+        <div
+          className="section-title"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <h3>Контакти</h3>
+        </div>
+        <div className="col-lg-6 col-md-12">
           <div className="contact-box mb-5">
             <div className="icon">
               <i className="icofont-phone"></i>
             </div>
 
             <div className="content">
-              <h4>Phone / Fax</h4>
+              <h4>Телефон</h4>
               <p>
-                <a href="tel:+021245522455">(+021) 245522455</a>
-              </p>
-              <p>
-                <a href="tel:+000245522455">(+000) 245522455</a>
+                <a
+                  href="tel:+380996698291
+"
+                >
+                  +38 (099) 669 82 91
+                </a>
               </p>
             </div>
           </div>
         </div>
 
-        <div className="col-lg-4 col-md-12">
+        <div className="col-lg-6 col-md-12">
           <div className="contact-box mb-5">
             <div className="icon">
               <i className="icofont-envelope"></i>
@@ -37,21 +50,6 @@ const ContactInfo: React.FC = () => {
               </p>
               <p>
                 <a href="mailto:support@axolot.com">support@Axolot.com</a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-lg-4 col-md-12">
-          <div className="contact-box mb-5">
-            <div className="icon">
-              <i className="icofont-google-map"></i>
-            </div>
-
-            <div className="content">
-              <h4>Location</h4>
-              <p>
-                2750 Quadra Street , Park Area, <span>Victoria, Canada.</span>
               </p>
             </div>
           </div>

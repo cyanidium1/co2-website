@@ -2818,11 +2818,13 @@ Start Repair Partner CSS
   margin-bottom: 30px;
   font-size: 30px;
 }
-.repair-subscribe-content form {
+.repair-subscribe-content .form-wrapper {
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .repair-subscribe-content form .form-group {
-  float: left;
   margin-bottom: 0;
   width: 29%;
   padding-right: 15px;
@@ -2838,10 +2840,12 @@ Start Repair Partner CSS
   padding-bottom: 10px;
   padding-top: 12px;
 }
-.repair-subscribe-content form .form-group .input-newsletter::-moz-placeholder {
+.repair-subscribe-content form .form-group .input-newsletter::-moz-placeholder,
+.input-newsletter::-moz-placeholder {
   color: #ffffff;
 }
-.repair-subscribe-content form .form-group .input-newsletter::placeholder {
+.repair-subscribe-content form .form-group .input-newsletter::placeholder,
+.input-newsletter::placeholder {
   color: #ffffff;
 }
 .repair-subscribe-content form .validation-danger,
@@ -2849,8 +2853,7 @@ Start Repair Partner CSS
   color: #ffffff;
 }
 .repair-subscribe-content form .btn {
-  float: left;
-  width: 13%;
+  margin-top: 24px;
 }
 .repair-subscribe-content form .btn-primary {
   color: #ffffff;
@@ -3156,4 +3159,17 @@ Start Repair Partner CSS
 .chip:hover {
   background-color: #f06334;
   color: white;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+
+  @media (min-width: 768px) {
+    width: 200px;
+  }
+}
+
+.container {
+  overflow-x: hidden;
 }
