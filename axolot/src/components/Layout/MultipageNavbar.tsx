@@ -61,7 +61,7 @@ const MultipageNavbar: React.FC = () => {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link
-                  href="/home-7/#about"
+                  href="#about"
                   className={`nav-link ${pathname.includes("#about") && "active"}`}
                 >
                   Про товар
@@ -70,7 +70,7 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="/home-7/#benefits"
+                  href="#benefits"
                   className={`nav-link ${pathname.includes("#benefits") && "active"}`}
                 >
                   Переваги
@@ -79,7 +79,7 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="/home-7/#description"
+                  href="#description"
                   className={`nav-link ${pathname.includes("#description") && "active"}`}
                 >
                   Опис
@@ -88,7 +88,7 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="/home-7/#related"
+                  href="#related"
                   className={`nav-link ${pathname.includes("#related") && "active"}`}
                 >
                   Супутні товари

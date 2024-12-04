@@ -1,54 +1,31 @@
-import MultipageNavbar from "@/components/Layout/MultipageNavbar";
-import MainBanner from "@/components/HomePages/MainBanner";
-import Features from "@/components/Common/Features";
-import AboutUs from "@/components/Common/AboutUs";
-import ServicesSlider from "@/components/Common/ServicesSlider";
-import ServicesTab from "@/components/Common/ServicesTab";
-import FunFacts from "@/components/Common/FunFacts";
-import JoinClients from "@/components/Common/JoinClients";
-import HowItWorks from "@/components/Common/HowItWorks";
-import TeamSlider from "@/components/Common/TeamSlider";
-import Testimonials from "@/components/Common/Testimonials";
-import FaqContent from "@/components/Common/FaqContent";
-import Pricing from "@/components/Common/Pricing";
-import Partners from "@/components/Common/Partners";
-import SubscribeForm from "@/components/Common/SubscribeForm";
-import Footer from "@/components/Layout/Footer";
+import React from 'react';
+import MultipageNavbar from '@/components/Layout/MultipageNavbar';
+import MainBanner from '../components/HomePages/Repair/MainBanner';
+import AboutUs from '../components/HomePages/Repair/AboutUs';
+import Services from '../components/HomePages/Repair/Services';
+import Footer from '../components/HomePages/Repair/Footer';
+import FaqContentStyle2 from '@/components/Common/FaqContentStyle2';
+import AboutProduct from '@/components/HomePages/Repair/AboutProduct';
 
-export default function Home() {
+ 
+ 
+export default function Page() {
   return (
     <>
       <MultipageNavbar />
 
       <MainBanner />
 
-      <Features />
-
       <AboutUs />
 
-      <ServicesSlider />
+      <Services />
 
-      <ServicesTab />
-
-      <FunFacts />
-
-      <JoinClients />
-
-      <HowItWorks />
-
-      <TeamSlider />
-
-      <Testimonials />
-
-      <FaqContent />
-
-      <Pricing />
-
-      <Partners />
-
-      <SubscribeForm />
+      <FaqContentStyle2 />
+      
+      <AboutProduct/>
 
       <Footer />
+ 
     </>
-  );
+  )
 }
