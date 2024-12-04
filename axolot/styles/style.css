@@ -2356,22 +2356,13 @@ section.route-section {
 .repair-services-area .section-title p {
   color: #ffffff;
 }
-.repair-services-area::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: #ffffff;
-  z-index: -1;
-  height: 11%;
-}
 
 .single-repair-services {
   border: 1px solid #8096b0;
   padding: 30px;
   border-radius: 5px;
   transition: 0.5s;
+  height: 270px;
 }
 .single-repair-services i {
   color: #ffffff;
