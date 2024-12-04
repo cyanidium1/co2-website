@@ -97,15 +97,6 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="/home-7/#news"
-                  className={`nav-link ${pathname.includes("#news") && "active"}`}
-                >
-                  Новини
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link
                   href="/contact/"
                   className={`nav-link ${pathname.includes("/contact") && "active"}`}
                 >

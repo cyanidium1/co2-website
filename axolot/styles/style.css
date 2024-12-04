@@ -2023,12 +2023,25 @@ section.route-section {
   opacity: 0.6;
 }
 
+.repair-banner-content {
+  margin-top: 180px;
+  @media (min-width: 1200px) {
+    margin-top: 0;
+  }
+}
+
 .repair-banner-content h2 {
   color: #ffffff;
   line-height: 1.2;
   font-size: 55px;
   font-weight: 700;
+  margin: 0 auto;
   margin-bottom: 25px;
+  max-width: 80%;
+
+  @media (min-width: 989px) {
+    max-width: 100%;
+  }
 }
 .repair-banner-content p {
   max-width: 550px;

@@ -21,17 +21,12 @@ const MainBanner: React.FC = () => {
               <div className="row align-items-center">
                 <div className="col-lg-7">
                   <div className="repair-banner-content">
-                    <h2>Установка рекуперації CO2 Haffmans (CRU)</h2>
-                    <Link href="/contact" className="btn btn-primary">
+                    <h2  data-aos="fade-up"
+                data-aos-duration="600">Установка рекуперації CO2 Haffmans (CRU)</h2>
+                    <Link href="/contact"  data-aos="fade-up"
+                data-aos-duration="600" className="btn btn-primary">
                      Звʼяжіться з нами
                     </Link>
-                  </div>
-                </div>
-                <div className="col-lg-5">
-                  <div className="banner-video text-center">
-                    <div onClick={() => setToggler(!toggler)}>
-                      <i className="icofont-ui-play"></i>
-                    </div>
                   </div>
                 </div>
               </div>

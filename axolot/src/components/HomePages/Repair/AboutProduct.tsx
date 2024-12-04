@@ -8,15 +8,17 @@ const AboutProduct: React.FC = () => {
     <>
       <section id="related" className="about-area ptb-100">
         <div className="container">
-          <div className="section-title">
+          <div className="section-title" data-aos="fade-right"
+                data-aos-duration="800">
             <h3>Супутні продукти</h3>
           </div>
 
           <div className="style-border">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
-                <div className="about-content">
-                  <h3>Haffmans CO2mpactBrew</h3>
+                <div className="about-content" data-aos="fade-right"
+                data-aos-duration="800">
+                  <h3 >Haffmans CO2mpactBrew</h3>
                   <p>
                     CO2mpactBrew — це установка для відновлення CO2, спеціально
                     розроблена для невеликих крафтових пивоварень, що забезпечує
@@ -29,7 +31,8 @@ const AboutProduct: React.FC = () => {
                     введення в експлуатацію завдяки управлінню життєвим циклом i
                     технічній підтримці.
                   </p>
-                  <ul className="pull-left">
+                  <ul className="pull-left" data-aos="fade-up"
+                data-aos-duration="800">
                     <li>
                       <i className="icofont-ui-check"></i> Незалежність у CO2
                     </li>
@@ -47,7 +50,8 @@ const AboutProduct: React.FC = () => {
                       безперебійної роботи 24/7, час безвідмовної роботи ≥ 95%
                     </li>
                   </ul>
-                  <ul>
+                  <ul data-aos="fade-up"
+                data-aos-duration="600">
                     <li>
                       <i className="icofont-ui-check"></i> Компактний розмір
                       (40-футовий скід)

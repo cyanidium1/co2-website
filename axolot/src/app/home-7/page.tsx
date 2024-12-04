@@ -42,7 +42,7 @@ export default function Page() {
 
       {/* <Partners /> */}
 
-      <OurBlog />
+      {/* <OurBlog /> */}
 
       <Footer />
  
