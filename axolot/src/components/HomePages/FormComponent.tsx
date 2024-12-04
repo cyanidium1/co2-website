@@ -49,8 +49,8 @@ const FormComponent = () => {
                   lineHeight: "1.5",
                   border: "1px solid #ffffff",
                   backgroundColor: "transparent",
-                    color: "white",
-                  outline:0
+                  color: "white",
+                  outline: 0,
                 }}
               ></textarea>
             </div>

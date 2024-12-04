@@ -1,13 +1,12 @@
 import React from 'react';
 import MultipageNavbar from '@/components/Layout/MultipageNavbar';
-import MainBanner from '../components/HomePages/Repair/MainBanner';
-import AboutUs from '../components/HomePages/Repair/AboutUs';
-import Services from '../components/HomePages/Repair/Services';
-import Footer from '../components/HomePages/Repair/Footer';
-import FaqContentStyle2 from '@/components/Common/FaqContentStyle2';
-import AboutProduct from '@/components/HomePages/Repair/AboutProduct';
-import ContactInfo from '@/components/Contact/ContactInfo';
-import FormComponent from '@/components/HomePages/Repair/FormComponent';
+import MainBanner from '../components/HomePages/MainBanner';
+import AboutUs from '../components/HomePages/AboutUs';
+import Services from '../components/HomePages/Services';
+import Footer from '../components/HomePages/Footer';
+import FaqContentStyle2 from '@/components/HomePages/FaqContentStyle2';
+import AboutProduct from '@/components/HomePages/AboutProduct';
+import FormComponent from '@/components/HomePages/FormComponent';
 
  
  
