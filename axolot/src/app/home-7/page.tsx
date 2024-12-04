@@ -34,13 +34,13 @@ export default function Page() {
 
       {/* <TeamSlider /> */}
 
-      <RecentProjects />
+      {/* <RecentProjects /> */}
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
-      <Pricing />
+      {/* <Pricing /> */}
 
-      <Partners />
+      {/* <Partners /> */}
 
       <OurBlog />
 
