@@ -22,7 +22,7 @@ const MultipageNavbar: React.FC = () => {
         elementId?.classList.remove("is-sticky");
       }
     });
-  });
+  }, []); // Додано порожній масив залежностей
 
   const classOne = menu
     ? "collapse navbar-collapse mean-menu"
@@ -38,7 +38,7 @@ const MultipageNavbar: React.FC = () => {
         className="navbar navbar-expand-md navbar-light bg-light fixed-top"
       >
         <div className="container">
-          <Link href="/" className="navbar-brand">
+          <Link href="/home-7" className="navbar-brand">
             <Image src="/logo.svg" alt="logo" width={200} height={90} />
           </Link>
 
@@ -59,11 +59,10 @@ const MultipageNavbar: React.FC = () => {
 
           <div className={classOne} id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
-  
               <li className="nav-item">
                 <Link
-                  href="#about"
-                  className={`nav-link ${pathname == "/about/" && "active"}`}
+                  href="/home-7/#about"
+                  className={`nav-link ${pathname.includes("#about") && "active"}`}
                 >
                   Про товар
                 </Link>
@@ -71,8 +70,8 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="#benefits"
-                  className={`nav-link ${pathname == "/benefits/" && "active"}`}
+                  href="/home-7/#benefits"
+                  className={`nav-link ${pathname.includes("#benefits") && "active"}`}
                 >
                   Переваги
                 </Link>
@@ -80,8 +79,8 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="#description"
-                  className={`nav-link ${pathname == "/description/" && "active"}`}
+                  href="/home-7/#description"
+                  className={`nav-link ${pathname.includes("#description") && "active"}`}
                 >
                   Опис
                 </Link>
@@ -89,8 +88,8 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="#related"
-                  className={`nav-link ${pathname == "/related/" && "active"}`}
+                  href="/home-7/#related"
+                  className={`nav-link ${pathname.includes("#related") && "active"}`}
                 >
                   Супутні товари
                 </Link>
@@ -98,8 +97,8 @@ const MultipageNavbar: React.FC = () => {
 
               <li className="nav-item">
                 <Link
-                  href="#news"
-                  className={`nav-link ${pathname == "/news/" && "active"}`}
+                  href="/home-7/#news"
+                  className={`nav-link ${pathname.includes("#news") && "active"}`}
                 >
                   Новини
                 </Link>
@@ -108,7 +107,7 @@ const MultipageNavbar: React.FC = () => {
               <li className="nav-item">
                 <Link
                   href="/contact/"
-                  className={`nav-link ${pathname == "/contact/" && "active"}`}
+                  className={`nav-link ${pathname.includes("/contact") && "active"}`}
                 >
                   Contact
                 </Link>
