@@ -39,7 +39,7 @@ const MultipageNavbar: React.FC = () => {
       >
         <div className="container">
           <Link href="/" className="navbar-brand">
-            <Image src="/logo.jpeg" alt="logo" width={200} height={90} />
+            <Image src="/logo.svg" alt="logo" width={200} height={90} />
           </Link>
 
           <button
@@ -59,146 +59,49 @@ const MultipageNavbar: React.FC = () => {
 
           <div className={classOne} id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
+  
               <li className="nav-item">
                 <Link
-                  href="#"
-                  className="nav-link"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Home <i className="icofont-thin-down"></i>
-                </Link>
-
-                <ul className="dropdown-menu">
-                  <li className="nav-item">
-                    <Link
-                      href="/"
-                      className={`nav-link ${pathname == "/" && "active"}`}
-                    >
-                      Home Demo - 1
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/home-2/"
-                      className={`nav-link ${
-                        pathname == "/home-2/" && "active"
-                      }`}
-                    >
-                      Home Demo - 2
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/home-3/"
-                      className={`nav-link ${
-                        pathname == "/home-3/" && "active"
-                      }`}
-                    >
-                      Home Demo - 3
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/home-4/"
-                      className={`nav-link ${
-                        pathname == "/home-4/" && "active"
-                      }`}
-                    >
-                      Home Demo - 4
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/home-5/"
-                      className={`nav-link ${
-                        pathname == "/home-5/" && "active"
-                      }`}
-                    >
-                      Home Demo - 5
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/home-6/"
-                      className={`nav-link ${
-                        pathname == "/home-6/" && "active"
-                      }`}
-                    >
-                      Home Demo - 6
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/home-7/"
-                      className={`nav-link ${
-                        pathname == "/home-7/" && "active"
-                      }`}
-                    >
-                      Home Demo - 7
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/home-8/"
-                      className={`nav-link ${
-                        pathname == "/home-8/" && "active"
-                      }`}
-                    >
-                      One Page Template
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-
-              <li className="nav-item">
-                <Link
-                  href="/about/"
+                  href="#about"
                   className={`nav-link ${pathname == "/about/" && "active"}`}
                 >
-                  About
+                  Про товар
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link
-                  href="/services/"
-                  className={`nav-link ${pathname == "/services/" && "active"}`}
+                  href="#benefits"
+                  className={`nav-link ${pathname == "/benefits/" && "active"}`}
                 >
-                  Services
+                  Переваги
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link
-                  href="/team/"
-                  className={`nav-link ${pathname == "/team/" && "active"}`}
+                  href="#description"
+                  className={`nav-link ${pathname == "/description/" && "active"}`}
                 >
-                  Team
+                  Опис
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link
-                  href="/faq/"
-                  className={`nav-link ${pathname == "/faq/" && "active"}`}
+                  href="#related"
+                  className={`nav-link ${pathname == "/related/" && "active"}`}
                 >
-                  Faq
+                  Супутні товари
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link
-                  href="/pricing/"
-                  className={`nav-link ${pathname == "/pricing/" && "active"}`}
+                  href="#news"
+                  className={`nav-link ${pathname == "/news/" && "active"}`}
                 >
-                  Pricing
+                  Новини
                 </Link>
               </li>
 

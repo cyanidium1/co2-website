@@ -8,7 +8,7 @@ import Image from "next/image";
 const Services: React.FC = () => {
   return (
     <>
-      <section id="services" className="repair-services-area ptb-100 pb-100">
+      <section id="benefits" className="repair-services-area ptb-100 pb-100">
         <div className="container">
           <div className="section-title text-center">
             <h3 style={{ color: "#f06334" }}>Переваги</h3>

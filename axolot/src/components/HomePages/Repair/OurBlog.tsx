@@ -7,7 +7,7 @@ import Image from "next/image";
 const OurBlog: React.FC = () => {
   return (
     <>
-      <section id="blog" className="repair-blog-area ptb-100">
+      <section id="news" className="repair-blog-area ptb-100">
         <div className="container">
           <div className="section-title">
             <h3>Останні новини</h3>

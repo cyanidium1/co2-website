@@ -1,13 +1,12 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 const AboutProduct: React.FC = () => {
   return (
     <>
-      <section id="about-product" className="about-area ptb-100">
+      <section id="related" className="about-area ptb-100">
         <div className="container">
           <div className="section-title">
             <h3>Супутні продукти</h3>

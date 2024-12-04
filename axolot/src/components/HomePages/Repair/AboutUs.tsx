@@ -13,7 +13,6 @@ const AboutUs: React.FC = () => {
             <div className="col-lg-6">
               <div className="repair-about-content">
                 <div className="section-title">
-                  <span>Інформація про продукт</span>
                   <h3>Haffmans CO2 Recovery Unit (CRU)</h3>
                   <p>
                     це надійне та міцне рішення для відновлення CO2, яке підходить для широкого спектру потреб пивоварень, з продуктивністю від 300,000 до понад 5,000,000 гектолітрів на рік.
