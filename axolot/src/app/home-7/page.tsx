@@ -11,6 +11,7 @@ import Partners from '../../components/HomePages/Repair/Partners';
 import OurBlog from '../../components/HomePages/Repair/OurBlog';
 import Footer from '../../components/HomePages/Repair/Footer';
 import FaqContentStyle2 from '@/components/Common/FaqContentStyle2';
+import AboutProduct from '@/components/HomePages/Repair/AboutProduct';
 
  
  
@@ -27,9 +28,11 @@ export default function Page() {
 
       <Services />
 
-      <FaqContentStyle2/>
+      <FaqContentStyle2 />
+      
+      <AboutProduct/>
 
-      <TeamSlider />
+      {/* <TeamSlider /> */}
 
       <RecentProjects />
 
