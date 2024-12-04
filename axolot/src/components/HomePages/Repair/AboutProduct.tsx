@@ -51,7 +51,7 @@ const AboutProduct: React.FC = () => {
                     </li>
                   </ul>
                   <ul data-aos="fade-up"
-                data-aos-duration="600">
+                data-aos-duration="800">
                     <li>
                       <i className="icofont-ui-check"></i> Компактний розмір
                       (40-футовий скід)
