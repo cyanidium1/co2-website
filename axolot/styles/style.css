@@ -3122,3 +3122,25 @@ Start Repair Partner CSS
 .error-content {
   text-align: center;
 } /*# sourceMappingURL=style.css.map */
+
+/* ==================== */
+.options-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip {
+  padding: 5px 15px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #506cea;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chip:hover {
+  background-color: #f06334;
+  color: white;
+}

@@ -1,5 +1,5 @@
 "use client";
-  
+
 import React from "react";
 import {
   Accordion,
@@ -15,31 +15,54 @@ const FaqContentStyle2: React.FC = () => {
     <>
       <section id="faq" className="faq-area bg-gray ptb-100">
         <div className="container">
-          <div className="section-title">
-            <span>FAQ</span>
-            <h3>Frequently Asked Question</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="faq">
                 <Accordion preExpanded={["a"]}>
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
-                        How do permissions work in Google Play Instant?
-                      </AccordionItemButton>
+                      <AccordionItemButton>Опис процесу</AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. incididunt ut labore et dolore magna
-                        aliqua.
+                        <strong>1. Подавання сирого газу:</strong> Сирий газ,
+                        вільний від піни, подається в установку. Газ
+                        буферизується в балоні (1).
+                      </p>
+                      <p>
+                        <strong>
+                          2. Очищення газу від водорозчинних забруднювачів:
+                        </strong>{" "}
+                        Газ очищається від водорозчинних домішок, таких як
+                        етанол, у газовому пральнику (2).
+                      </p>
+                      <p>
+                        <strong>3. Компресія газу:</strong> Газ проходить через
+                        двоступеневий безмасляний компресор CO2 (3), що підвищує
+                        тиск до 18 бар (261 psig). Під час цього процесу
+                        видаляється конденсат.
+                      </p>
+                      <p>
+                        <strong>4. Очищення від домішок i води:</strong>{" "}
+                        Залишкові домішки та вода видаляються в двоступеневому
+                        фільтрі з активованим вугіллям i сушильному пристрої
+                        (4). Регенація фільтра автоматично виконується за
+                        допомогою нагрівальних елементів i сухого газу CO2.
+                      </p>
+                      <p>
+                        <strong>5. Ліквідація CO2:</strong> Ліквідація CO2
+                        відбувається в конденсаторі, охолодженому холодоагентом
+                        (6). Процес включає конденсатор холодоагенту (7) та
+                        компресор холодоагенту (8).
+                      </p>
+                      <p>
+                        <strong>6. Видалення O2:</strong> O2 видаляється в
+                        стриппері (5).
+                      </p>
+                      <p>
+                        <strong>7. Зберігання очищеного CO2:</strong> Очищена
+                        рідка CO2 передається в резервуар для зберігання на
+                        майданчику.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -47,80 +70,39 @@ const FaqContentStyle2: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Is Smart Lock required for instant apps?
+                        Доступні варіанти
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. incididunt ut labore et dolore magna
-                        aliqua.
-                      </p>
-                    </AccordionItemPanel>
-                  </AccordionItem>
-
-                  <AccordionItem uuid="c">
-                    <AccordionItemHeading>
-                      <AccordionItemButton>
-                        Can I have multiple activities in a single feature?
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. incididunt ut labore et dolore magna
-                        aliqua.
-                      </p>
-                    </AccordionItemPanel>
-                  </AccordionItem>
-
-                  <AccordionItem uuid="d">
-                    <AccordionItemHeading>
-                      <AccordionItemButton>
-                        Can I share resources between features?
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. incididunt ut labore et dolore magna
-                        aliqua.
-                      </p>
-                    </AccordionItemPanel>
-                  </AccordionItem>
-
-                  <AccordionItem uuid="e">
-                    <AccordionItemHeading>
-                      <AccordionItemButton>
-                        Is multidex supported for instant apps?
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. incididunt ut labore et dolore magna
-                        aliqua.
-                      </p>
-                    </AccordionItemPanel>
-                  </AccordionItem>
-
-                  <AccordionItem uuid="f">
-                    <AccordionItemHeading>
-                      <AccordionItemButton>
-                        Can I share resources between features?
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. incididunt ut labore et dolore magna
-                        aliqua.
-                      </p>
+                      <div className="options-chips">
+                        <span className="chip">Газові насоси</span>
+                        <span className="chip">Аерозольні пральники</span>
+                        <span className="chip">
+                          LiquiVap - система раннього відновлення та економії
+                          енергії
+                        </span>
+                        <span className="chip">
+                          Резервуар для зберігання рідкого CO2
+                        </span>
+                        <span className="chip">
+                          Випаровувач, що нагрівається навколишнім повітрям або
+                          гліколем
+                        </span>
+                        <span className="chip">Одиниця наповнення балонів</span>
+                        <span className="chip">
+                          Насос для автотранспортних цистерн
+                        </span>
+                        <span className="chip">
+                          Обладнання для контролю якості
+                        </span>
+                        <span className="chip">
+                          Послуги з монтажу та пусконалагодження
+                        </span>
+                        <span className="chip">Оригінальні запчастини</span>
+                        <span className="chip">
+                          Послуги післяпродажного обслуговування
+                        </span>
+                      </div>
                     </AccordionItemPanel>
                   </AccordionItem>
                 </Accordion>
@@ -134,7 +116,7 @@ const FaqContentStyle2: React.FC = () => {
                 data-aos-duration="800"
               >
                 <Image
-                  src="/img/about.png"
+                  src="/images/faq.jpg"
                   alt="faq"
                   width={605}
                   height={525}
