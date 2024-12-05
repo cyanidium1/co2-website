@@ -23,7 +23,7 @@ const MainBanner: React.FC = () => {
                   <div className="repair-banner-content">
                     <h2  data-aos="fade-left"
                 data-aos-duration="600">Установка рекуперації CO2 Haffmans (CRU)</h2>
-                    <Link href="/contact"  data-aos="fade-right"
+                    <Link href="#contact"  data-aos="fade-right"
                 data-aos-duration="600" className="btn btn-primary">
                      Звʼяжіться з нами
                     </Link>
