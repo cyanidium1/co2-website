@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                 <ul className="contact-list">
                   <li>
                     <span>Email:</span>{" "}
-                    <a href="mailto:axolot@gmail.com">axolot@gmail.com</a>
+                    <a href="mailto:request@co2lab.pro">request@co2lab.pro</a>
                   </li>
                   <li>
                     <span>Телефон:</span>{" "}
