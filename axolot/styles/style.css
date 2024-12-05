@@ -731,38 +731,6 @@ textarea.form-control {
   color: #f06334;
 }
 
-.repair-services-inner {
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-  border-radius: 5px;
-  margin-top: 80px;
-  background-color: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.repair-services-inner .single-inner-services {
-  position: relative;
-  padding-left: 60px;
-}
-.repair-services-inner .single-inner-services i {
-  font-size: 40px;
-  color: #4457c3;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.repair-services-inner .single-inner-services h3 {
-  font-size: 17px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.repair-services-inner .col-lg-4:nth-child(2) {
-  border-left: 1px solid #d1d9e2;
-  border-right: 1px solid #d1d9e2;
-}
-
 .repair-services-slides .swiper-pagination {
   position: initial;
   margin-top: 20px;
