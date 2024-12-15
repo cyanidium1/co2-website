@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 
 const Services: React.FC = () => {
@@ -11,21 +11,18 @@ const Services: React.FC = () => {
       <section id="benefits" className="repair-services-area ptb-100 pb-100">
         <div className="container">
           <div className="section-title text-center">
-            <h3 style={{ color: "#f06334" }}>Переваги</h3>
-            <p>Незалежність у забезпеченні CO2 та навіть більше</p>
+            <h3 >Переваги</h3>
           </div>
 
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
-            autoplay={{
-              delay: 6000,
-              disableOnInteraction: true,
-              pauseOnMouseEnter: true,
-            }}
+            navigation={true}
+            // autoplay={{
+            //   delay: 6000,
+            //   disableOnInteraction: true,
+            //   pauseOnMouseEnter: true,
+            // }}
             breakpoints={{
               768: {
                 slidesPerView: 2,
@@ -34,42 +31,12 @@ const Services: React.FC = () => {
                 slidesPerView: 3,
               },
             }}
-            modules={[Pagination, Autoplay]}
+            modules={[Pagination, Navigation, Autoplay]}
             className="mySwiper repair-services-slides"
           >
-            <SwiperSlide style={{minHeight:'270px'}}>
-              <div className="single-repair-services">
-                <Image
-                  src="/icons/chem.svg"
-                  alt="icon"
-                  width={40}
-                  height={40}
-                />
-                <h3>Якість</h3>
-                <p>
-                  Рідкий CO2 високої якості ≥ 99,998 % обʼємних часток, O2 ≤ 5
-                  ppm обʼємних часток
-                </p>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide style={{minHeight:'270px'}}>
-              <div className="single-repair-services">
-                <Image
-                  src="/icons/progress.svg"
-                  alt="icon"
-                  width={40}
-                  height={40}
-                />
-                <h3>Eфективнiсть відновлення</h3>
-                <p>
-                  Висока ефективність відновлення навіть при низькій чистоті CO2
-                  на вході з ≥ 95% обʼємних часток.
-                </p>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide style={{minHeight:'270px'}}>
+            <SwiperSlide style={{
+              minHeight: "270px", backgroundColor: "white",
+             }}>
               <div className="single-repair-services">
                 <Image
                   src="/icons/manufacturing.svg"
@@ -77,14 +44,39 @@ const Services: React.FC = () => {
                   width={40}
                   height={40}
                 />
-                <h3>Надійність</h3>
-                <p>
-                  Міцна конструкція для надійної роботи 24/7, час безвідмовної роботи ≥ 95%
+                <h3 style={{color:"#198754"}}>Надійність</h3>
+                <p style={{color:"#343536"}}>Перевірені постачальники з усього світу</p>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide style={{ minHeight: "270px", backgroundColor: "white", }}>
+              <div className="single-repair-services">
+                <Image src="/icons/eco.svg" alt="icon" width={40} height={40} />
+                <h3 style={{color:"#198754"}}>Сучасні технології</h3>
+                <p style={{color:"#343536"}}>
+                  Використання обладнання найкращих зразків інженерних практик у
+                  галузі
                 </p>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide style={{minHeight:'270px'}}>
+            <SwiperSlide style={{ minHeight: "270px", backgroundColor: "white", }}>
+              <div className="single-repair-services">
+                <Image
+                  src="/icons/progress.svg"
+                  alt="icon"
+                  width={40}
+                  height={40}
+                />
+                <h3 style={{color:"#198754"}}>Eфективнiсть відновлення</h3>
+                <p style={{color:"#343536"}}>
+                  Висока ефективність відновлення навіть при низькій чистоті CO2
+                  на вході з ≥ 95% обʼємних часток.
+                </p>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide style={{ minHeight: "270px", backgroundColor: "white", }}>
               <div className="single-repair-services">
                 <Image
                   src="/icons/extension.svg"
@@ -92,55 +84,21 @@ const Services: React.FC = () => {
                   width={40}
                   height={40}
                 />
-                <h3>Гнучкість</h3>
-                <p>
-                 Гнучка, модульна конструкція для задоволення потреб у плануванні обʼєкта.
-                </p>
+                <h3 style={{color:"#198754"}}>Індивідуальний підхід</h3>
+                <p style={{color:"#343536"}}>Адаптація для задоволення потреб будь якого виробництва</p>
               </div>
             </SwiperSlide>
 
-             <SwiperSlide style={{minHeight:'270px'}}>
+            <SwiperSlide style={{ minHeight: "270px", backgroundColor: "white", }}>
               <div className="single-repair-services">
                 <Image
-                  src="/icons/eco.svg"
+                  src="/icons/chem.svg"
                   alt="icon"
                   width={40}
                   height={40}
                 />
-                <h3>Природні хладагенти</h3>
-                <p>
-                Застосування природних хладагентів CO2 (R744) та NH3 (R717).
-                </p>
-              </div>
-            </SwiperSlide>
-
-             <SwiperSlide style={{minHeight:'270px'}}>
-              <div className="single-repair-services">
-                <Image
-                  src="/icons/light.svg"
-                  alt="icon"
-                  width={40}
-                  height={40}
-                />
-                <h3>Економія з LiquiVap</h3>
-                <p>
-                 Швидке відновлення та економія енергії до 60 % з LiquiVap (опційно).
-                </p>
-              </div>
-            </SwiperSlide>
-
-             <SwiperSlide style={{minHeight:'270px'}}>
-              <div className="single-repair-services">
-                <Image
-                  src="/icons/book.svg"
-                  alt="icon"
-                  width={40}
-                  height={40}
-                />
-                <h3>Підтримка</h3>
-                <p>
-                Доступ до експертних знань про CO2 та технічної підтримки.
-                </p>
+                <h3 style={{color:"#198754"}}>Якість</h3>
+                <p style={{color:"#343536"}}>Рідкий CO2 високої якості ≥ 99,998 % обʼємних часток</p>
               </div>
             </SwiperSlide>
           </Swiper>

@@ -49,7 +49,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #506cea;
+  color: #198754;
   transition: 0.4s;
 }
 
@@ -107,7 +107,7 @@ textarea.form-control {
   display: block;
   font-size: 16px;
   margin-bottom: 6px;
-  color: #506cea;
+  color: #198754;
 }
 .section-title h3 {
   font-size: 30px;
@@ -128,7 +128,7 @@ textarea.form-control {
   border-radius: 5px;
   right: 0;
   margin: 0 auto;
-  background: #506cea;
+  background: #198754;
 }
 .section-title p {
   max-width: 550px;
@@ -161,8 +161,8 @@ textarea.form-control {
 }
 
 .btn-primary {
-  background-color: #506cea;
-  border-color: #506cea;
+  background-color: #198754;
+  border-color: #198754;
   color: #ffffff;
 }
 .btn-primary.focus,
@@ -178,30 +178,30 @@ textarea.form-control {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary .show > .btn-primary.dropdown-toggle {
   color: #ffffff;
-  background-color: #506cea;
-  border-color: #506cea;
+  background-color: #198754;
+  border-color: #198754;
 }
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #506cea;
-  border-color: #506cea;
+  background-color: #198754;
+  border-color: #198754;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   opacity: 1;
-  background-color: #506cea;
-  border-color: #506cea;
+  background-color: #198754;
+  border-color: #198754;
 }
 
 .btn-secondary {
   color: #ffffff;
-  background-color: #f06334;
-  border-color: #f06334;
+  background-color: #198754;
+  border-color: #198754;
 }
 .btn-secondary:hover {
   color: #ffffff;
-  background-color: #f06334;
-  border-color: #f06334;
+  background-color: #198754;
+  border-color: #198754;
 }
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
@@ -216,8 +216,8 @@ textarea.form-control {
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary .show > .btn-secondary.dropdown-toggle {
   color: #ffffff;
-  background-color: #f06334;
-  border-color: #f06334;
+  background-color: #198754;
+  border-color: #198754;
 }
 
 /* ==============
@@ -253,7 +253,7 @@ textarea.form-control {
   font-weight: 700;
 }
 .bg-light .navbar-brand span {
-  color: #506cea;
+  color: #198754;
 }
 .bg-light .navbar-nav li .nav-link {
   color: #333333;
@@ -270,7 +270,7 @@ textarea.form-control {
 .bg-light .navbar-nav li .nav-link:focus,
 .bg-light .navbar-nav li .nav-link:hover,
 .bg-light .navbar-nav li .nav-link.active {
-  color: #506cea;
+  color: #198754;
 }
 .bg-light .navbar-nav li .nav-link:last-child {
   padding-right: 0;
@@ -297,7 +297,7 @@ textarea.form-control {
 }
 .bg-light .navbar-nav li .dropdown-menu li a:hover,
 .bg-light .navbar-nav li .dropdown-menu li a.active {
-  color: #506cea;
+  color: #198754;
 }
 .bg-light .navbar-nav li:hover .dropdown-menu {
   top: 100%;
@@ -392,7 +392,7 @@ textarea.form-control {
 }
 .about-content ul li i {
   margin-right: 4px;
-  color: #506cea;
+  color: #198754;
 }
 .about-content .btn {
   margin-top: 25px;
@@ -442,13 +442,13 @@ textarea.form-control {
   padding: 10px 20px;
   border-radius: 30px;
   text-decoration: none;
-  background: #506cea;
+  background: #198754;
 }
 .accordion .accordion-title:hover {
-  background-color: #f06334;
+  background-color: #198754;
 }
 .accordion .active .accordion-title {
-  background: #f06334;
+  background: #198754;
   border-radius: 0;
 }
 .accordion .accordion-content {
@@ -467,7 +467,7 @@ textarea.form-control {
   margin-bottom: 0;
 }
 .accordion .accordion__button {
-  background-color: #506cea;
+  background-color: #198754;
   color: #ffffff;
   cursor: pointer;
   padding: 10px 20px;
@@ -479,7 +479,7 @@ textarea.form-control {
   transition: 0.5s;
 }
 .accordion .accordion__button:hover {
-  background-color: #f06334;
+  background-color: #198754;
 }
 .accordion .accordion__panel p {
   margin-top: 0;
@@ -585,14 +585,14 @@ textarea.form-control {
   font-weight: 600;
 }
 .repair-about-content ul li i {
-  color: #f06334;
+  color: #198754;
   margin-right: 3px;
 }
 .repair-about-content .read-more-btn {
   display: inline-block;
   margin-top: 20px;
   text-transform: uppercase;
-  color: #f06334;
+  color: #198754;
   font-size: 14px;
   font-weight: 700;
 }
@@ -651,11 +651,11 @@ textarea.form-control {
   background-color: #4457c3;
   background-image: url(/images/services-bg.jpg);
   background-position: center center;
-  background-size: contain;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .repair-services-area .section-title span {
-  color: #f06334;
+  color: #198754;
 }
 .repair-services-area .section-title h3 {
   color: #ffffff;
@@ -710,7 +710,7 @@ textarea.form-control {
 }
 .single-repair-services:hover i,
 .single-repair-services:focus i {
-  color: #f06334;
+  color: #198754;
 }
 .single-repair-services:hover h3,
 .single-repair-services:focus h3 {
@@ -728,7 +728,7 @@ textarea.form-control {
 .single-repair-services:hover .read-more-btn:focus,
 .single-repair-services:focus .read-more-btn:hover,
 .single-repair-services:focus .read-more-btn:focus {
-  color: #f06334;
+  color: #198754;
 }
 
 .repair-services-slides .swiper-pagination {
@@ -837,14 +837,14 @@ textarea.form-control {
 }
 .repair-subscribe-content form .btn-primary {
   color: #ffffff;
-  border-color: #f06334;
-  background-color: #f06334;
+  border-color: #198754;
+  background-color: #198754;
 }
 .repair-subscribe-content form .btn-primary.disabled,
 .repair-subscribe-content form .btn-primary:disabled {
   color: #ffffff;
-  background-color: #f06334;
-  border-color: #f06334;
+  background-color: #198754;
+  border-color: #198754;
 }
 
 /* ==============
@@ -866,7 +866,7 @@ textarea.form-control {
   height: 100%;
   top: 0;
   width: 201%;
-  background: #161616;
+  background: #198754;
   z-index: -2;
   transform: skewY(177deg);
 }
@@ -908,7 +908,7 @@ textarea.form-control {
 }
 .single-footer-widget .services-list li a:hover {
   padding-left: 10px;
-  color: #f06334;
+  color: #198754;
 }
 .single-footer-widget .services-list li:last-child a {
   margin-bottom: 0;
@@ -920,7 +920,7 @@ textarea.form-control {
 }
 .single-footer-widget .usefull-links li a:hover {
   padding-left: 10px;
-  color: #f06334;
+  color: #198754;
 }
 .single-footer-widget .usefull-links li:last-child a {
   margin-bottom: 0;
@@ -935,7 +935,7 @@ textarea.form-control {
   display: inline-block;
 }
 .single-footer-widget .contact-list li a:hover {
-  color: #f06334;
+  color: #198754;
 }
 .single-footer-widget .contact-list li:last-child {
   margin-bottom: 0;
@@ -961,7 +961,7 @@ textarea.form-control {
 }
 .social-links li a:hover,
 .social-links li a:focus {
-  background: #f06334;
+  background: #198754;
   color: #ffffff;
 }
 .social-links li:last-child {
@@ -1063,7 +1063,7 @@ textarea.form-control {
   transition: 0.4s;
 }
 .scroll-to-top:hover {
-  background-color: #506cea;
+  background-color: #198754;
 }
 
 .error-content {
@@ -1082,13 +1082,13 @@ textarea.form-control {
   border-radius: 16px;
   font-size: 14px;
   color: #333;
-  border: 1px solid #506cea;
+  border: 1px solid #198754;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .chip:hover {
-  background-color: #f06334;
+  background-color: #198754;
   color: white;
 }
 
@@ -1103,4 +1103,54 @@ textarea.form-control {
 
 .container {
   overflow-x: hidden;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #198754;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 86%;
+  transform: translateY(-50%);
+  transition: 0.3s ease;
+}
+
+.swiper-button-prev {
+  left: 40%;
+  transform: translateX(-45%);
+  background-image: url(/icons//chevron_left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: 40px, 40px;
+
+  @media (min-width: 768px) {
+    left: 45%;
+  }
+}
+
+.swiper-button-next {
+  right: 40%;
+  transform: translateX(45%);
+  background-image: url(/icons//chevron.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: 40px, 40px;
+
+  @media (min-width: 768px) {
+    right: 45%;
+  }
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.mySwiper {
+  overflow: visible;
+  min-height: 400px;
+  color: #198754;
 }

@@ -10,7 +10,7 @@ const AboutProduct: React.FC = () => {
         <div className="container">
           <div className="section-title" data-aos="fade-right"
                 data-aos-duration="800">
-            <h3>Супутні продукти</h3>
+            <h3>Опції</h3>
           </div>
 
           <div className="style-border">
@@ -18,56 +18,28 @@ const AboutProduct: React.FC = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="about-content" data-aos="fade-right"
                 data-aos-duration="800">
-                  <h3 >Haffmans CO2mpactBrew</h3>
-                  <p>
-                    CO2mpactBrew — це установка для відновлення CO2, спеціально
-                    розроблена для невеликих крафтових пивоварень, що забезпечує
-                    безперервне i незалежне постачання CO2 харчового класу.{" "}
-                    <br />
-                    Відновлення власного CO2 знижує викиди CO2 та VOC, що робить
-                    операцію більш сталим процесом.
-                    <br />
-                    Підтримка та обслуговування CO2mpactBrew триває після
-                    введення в експлуатацію завдяки управлінню життєвим циклом i
-                    технічній підтримці.
-                  </p>
+                  <h3 >СО2Lab пропонує комплексні рішення для роботи з діоксидом вуглецю:</h3>
                   <ul className="pull-left" data-aos="fade-up"
                 data-aos-duration="800">
                     <li>
-                      <i className="icofont-ui-check"></i> Незалежність у CO2
+                      <i className="icofont-ui-check"></i>Ємності для зберігання СО2
                     </li>
                     <li>
-                      <i className="icofont-ui-check"></i> Висока якість рідкого
-                      CO2 ≥ 99,998 % обʼємних часток, O2 ≤ 5 ppm обʼємних часток
+                      <i className="icofont-ui-check"></i>Аналітичні системи
                     </li>
                     <li>
-                      <i className="icofont-ui-check"></i> Висока ефективність
-                      відновлення навіть при низькій чистоті CO2 на вході ≥ 95%
-                      обʼємних часток
+                      <i className="icofont-ui-check"></i>Газодувки та розробка трубопроводів
                     </li>
                     <li>
-                      <i className="icofont-ui-check"></i> Надійний дизайн для
-                      безперебійної роботи 24/7, час безвідмовної роботи ≥ 95%
-                    </li>
-                  </ul>
-                  <ul data-aos="fade-up"
-                data-aos-duration="800">
-                    <li>
-                      <i className="icofont-ui-check"></i> Компактний розмір
-                      (40-футовий скід)
+                      <i className="icofont-ui-check"></i>Шеф-монтаж обладнання
                     </li>
                     <li>
-                      <i className="icofont-ui-check"></i> Готова до підключення
-                      система plug-and-play
+                      <i className="icofont-ui-check"></i>Будівельні роботи
                     </li>
                     <li>
-                      <i className="icofont-ui-check"></i> Без використання
-                      хладагентів
+                      <i className="icofont-ui-check"></i>Генпроектування
                     </li>
-                    <li>
-                      <i className="icofont-ui-check"></i> Легке оновлення
-                      потужності при збереженні того ж розміру
-                    </li>
+          
                   </ul>
                 </div>
               </div>

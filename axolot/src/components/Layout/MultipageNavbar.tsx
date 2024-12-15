@@ -64,7 +64,7 @@ const MultipageNavbar: React.FC = () => {
                   href="#about"
                   className={`nav-link ${pathname.includes("#about") && "active"}`}
                 >
-                  Про товар
+                  Рекуперація СО2
                 </Link>
               </li>
 
@@ -91,7 +91,7 @@ const MultipageNavbar: React.FC = () => {
                   href="#related"
                   className={`nav-link ${pathname.includes("#related") && "active"}`}
                 >
-                  Супутні товари
+                  Опції
                 </Link>
               </li>
 

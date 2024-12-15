@@ -15,14 +15,14 @@ const MainBanner: React.FC = () => {
       />
           <div
             className="repair-main-banner"
-            style={{ backgroundImage: `url(/images/hero.jpg)` }}
+            style={{ backgroundImage: `url(/images/hero.avif)` }}
           >
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-7">
                   <div className="repair-banner-content">
                     <h2  data-aos="fade-left"
-                data-aos-duration="600">Установка рекуперації CO2 Haffmans (CRU)</h2>
+                data-aos-duration="600">Рішення для рекуперації діоксиду вуглецю (CO2)</h2>
                     <Link href="#contact"  data-aos="fade-right"
                 data-aos-duration="600" className="btn btn-primary">
                      Звʼяжіться з нами
