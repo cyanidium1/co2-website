@@ -98,7 +98,7 @@ const Services: React.FC = () => {
                   height={40}
                 />
                 <h3 style={{color:"#198754"}}>Якість</h3>
-                <p style={{color:"#343536"}}>Рідкий CO2 високої якості ≥ 99,998 % обʼємних часток</p>
+                <p style={{color:"#343536"}}>Рідкий CO2 високої якості ≥ 99,998 %</p>
               </div>
             </SwiperSlide>
           </Swiper>

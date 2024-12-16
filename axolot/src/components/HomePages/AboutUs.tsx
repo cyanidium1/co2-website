@@ -15,7 +15,7 @@ const AboutUs: React.FC = () => {
               </div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" >
               <div
                 className="repair-about-content"
                 data-aos="fade-right"
@@ -59,18 +59,18 @@ const AboutUs: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
-              <div className="repair-about-image">
-                <h3 data-aos="fade-left" style={{ color: "#198754" }}>Забезпечте себе CO2</h3>
+            <div data-aos="fade-left" className="col-lg-6" style={{backgroundColor:"rgba(25, 135, 84, 0.1)",padding:16, borderRadius:8}}>
+              <div className="repair-about-image" >
+                <h3 data-aos="fade-left" style={{ color: "#198754", textAlign:"center" }}>Забезпечте себе CO2</h3>
                 <p data-aos="fade-left" data-aos-duration="600">
               Підвищить ефективність вашого виробництва разом із установками рекуперації CO2 від СО2Lab. Ми пропонуємо індивідуальні рішення, які враховують специфічні вимоги вашого підприємства. Наші фахівці готові розробити, виготовити та встановити обладнання, адаптоване до будь-яких умов, навіть якщо доступний простір обмежений.
                 </p>
                 <br />
-                <p data-aos="fade-right" data-aos-duration="600" style={{fontWeight:700,color:"#198754"}}>
+                <p data-aos="fade-right" data-aos-duration="600" style={{fontWeight:700,color:"#198754", textAlign:"center"}}>
              Наші установки дозволяють:
                 </p>
                 <br/>
-                 <ul data-aos="fade-right" data-aos-duration="600" style={{display:"flex",flexDirection:"column", gap:16, alignItems:"flex-start"}}>
+                 <ul data-aos="fade-right" data-aos-duration="600" style={{display:"flex",flexDirection:"column", gap:16, alignItems:"flex-start", margin:0}}>
                   <li style={{fontWeight:700}}>Уловлювати відхідний СО2</li>
                   <li style={{fontWeight:700}}>Очищати, скраплювати та зберігати його</li>
             <li style={{fontWeight:700}}>Відвантажувати зріджений CO2 відповідно до ваших потреб</li>
@@ -79,8 +79,8 @@ const AboutUs: React.FC = () => {
               </div>
             </div>
           </div>
-    
-          <p data-aos="fade-right" data-aos-duration="600">
+    <br/>
+          <p data-aos="fade-right" data-aos-duration="600" style={{color:"black",fontWeight:700}}>
            На виході ви отримуєте рідкий CO2, чистота якого відповідає стандартам ДСТУ 4817:2007 для харчового застосування, а за потреби — європейському стандарту ISBT.
           </p>
            <p data-aos="fade-right" data-aos-duration="600" style={{fontWeight:700,color: "#198754"}}>

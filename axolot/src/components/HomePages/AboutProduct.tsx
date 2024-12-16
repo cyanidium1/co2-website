@@ -15,11 +15,15 @@ const AboutProduct: React.FC = () => {
 
           <div className="style-border">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12">
                 <div className="about-content" data-aos="fade-right"
                 data-aos-duration="800">
-                  <h3 >СО2Lab пропонує комплексні рішення для роботи з діоксидом вуглецю:</h3>
-                  <ul className="pull-left" data-aos="fade-up"
+                  <h3 style={{textAlign:"center"}}>Інженерне бюро СО2Lab візьме вашу задачу на EPC контракт:</h3>
+                <ul style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                   width:"100%"
+                  }} className="pull-left" data-aos="fade-up"
                 data-aos-duration="800">
                     <li>
                       <i className="icofont-ui-check"></i>Ємності для зберігання СО2
@@ -42,22 +46,6 @@ const AboutProduct: React.FC = () => {
           
                   </ul>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
-                <div
-                  className="about-img right-img"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                >
-                  <Image
-                    src="/images/related.jpg"
-                    alt="Haffmans
-CO2mpactBrew "
-                    width={605}
-                    height={525}
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </div>
